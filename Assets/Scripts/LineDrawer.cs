@@ -1,6 +1,7 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class LineDrawer : MonoBehaviour //, IPointerEnterHandler, IPointerExitHandler
+public class LineDrawer : MonoBehaviour , IPointerEnterHandler, IPointerExitHandler
 {
     private const float ZAxisOffset = 10f;
     private const float Resolution = 0.2f;
@@ -12,6 +13,7 @@ public class LineDrawer : MonoBehaviour //, IPointerEnterHandler, IPointerExitHa
     private LineRenderer _lineRenderer;
     private Vector3 _mousePosition;
     private Vector3 _newDrawingPoint;
+    private bool _isPointerInDrawPanel;
     
     
     private void Awake()
@@ -28,7 +30,7 @@ public class LineDrawer : MonoBehaviour //, IPointerEnterHandler, IPointerExitHa
             StartDrawingNewLine();
         }
         
-        if (Input.GetMouseButton(0))
+        if (Input.GetMouseButton(0) && _isPointerInDrawPanel)
         {
             KeepDrawingNewLine();
         }
@@ -74,5 +76,15 @@ public class LineDrawer : MonoBehaviour //, IPointerEnterHandler, IPointerExitHa
         }
         return Vector3.Distance(_lineRenderer.GetPosition(_lineRenderer.positionCount - 1), position)
                > Resolution;
+    }
+
+    public void OnPointerEnter(PointerEventData eventData)
+    {
+        _isPointerInDrawPanel = true;
+    }
+
+    public void OnPointerExit(PointerEventData eventData)
+    {
+        _isPointerInDrawPanel = false;
     }
 }

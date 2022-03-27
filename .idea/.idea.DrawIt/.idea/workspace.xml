@@ -1,19 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88db2edb-50fd-462b-a0b1-490005ab8531" name="Default Changelist" comment="">
+    <list default="true" id="88db2edb-50fd-462b-a0b1-490005ab8531" name="Default Changelist" comment="Imported models and animations. Totally reworked drawing system">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DrawIt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DrawIt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/LineMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LineMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Line.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Line.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LineDrawer.prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LineDrawer.prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LineDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LineDrawer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,9 +13,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Drawer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -83,7 +71,7 @@
       <updated>1648282546464</updated>
       <workItem from="1648282555905" duration="20022000" />
       <workItem from="1648309029750" duration="2555000" />
-      <workItem from="1648366634416" duration="3331000" />
+      <workItem from="1648366634416" duration="4916000" />
     </task>
     <task id="LOCAL-00001" summary="Imported splines plugin">
       <created>1648282621592</created>
@@ -99,7 +87,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648295460971</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Imported models and animations. Totally reworked drawing system">
+      <created>1648370112895</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1648370112895</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,6 +118,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Imported splines plugin" />
     <MESSAGE value="Added line drawer and line script" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added line drawer and line script" />
+    <MESSAGE value="Imported models and animations. Totally reworked drawing system" />
+    <option name="LAST_COMMIT_MESSAGE" value="Imported models and animations. Totally reworked drawing system" />
   </component>
 </project>
