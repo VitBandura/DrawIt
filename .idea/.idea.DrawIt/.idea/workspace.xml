@@ -1,12 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="88db2edb-50fd-462b-a0b1-490005ab8531" name="Default Changelist" comment="Imported splines plugin">
+    <list default="true" id="88db2edb-50fd-462b-a0b1-490005ab8531" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.DrawIt/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.DrawIt/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/LineMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/LineMaterial.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Line.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Line.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LineDrawer.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/LineDrawer.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Line.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LineDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LineDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2021.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +24,14 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Line.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Drawer.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/LineDrawer.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Line.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/NewBehaviourScript.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Drawer.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/LineDrawer.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="26unrqjUhDAAC1YuTk3cU8zsjNU" />
@@ -73,7 +81,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648282546464</updated>
-      <workItem from="1648282555905" duration="9039000" />
+      <workItem from="1648282555905" duration="20022000" />
+      <workItem from="1648309029750" duration="2555000" />
+      <workItem from="1648366634416" duration="3331000" />
     </task>
     <task id="LOCAL-00001" summary="Imported splines plugin">
       <created>1648282621592</created>
@@ -82,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1648282621592</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added line drawer and line script">
+      <created>1648295460971</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1648295460971</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,10 +117,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Imported splines plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Imported splines plugin" />
+    <MESSAGE value="Added line drawer and line script" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added line drawer and line script" />
   </component>
 </project>
